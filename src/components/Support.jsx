@@ -5,7 +5,7 @@ import supportImg from "../assets/support.jpg";
 
 const Support = () => {
   return (
-    <div className="w-full h-screen mt-24">
+    <div className="w-full mt-24">
       <div className="w-full h-[700px] bg-gray-900/90 absolute">
         <img className="w-full h-full object-cover mix-blend-overlay" src={supportImg} alt="/" />
       </div>
@@ -44,7 +44,7 @@ const Support = () => {
           <div className="bg-white rounded-xl shadow-2xl">
             <div className="p-8">
               <ChipIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
-              <h3 className="font-bold text-2xl my-6">Media Inqueries</h3>
+              <h3 className="font-bold text-2xl my-6">Media Inquiries</h3>
               <p className="text-gray-600 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod explicabo nam sequi delectus molestiae architecto quam maiores quaerat ea cupiditate?</p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
